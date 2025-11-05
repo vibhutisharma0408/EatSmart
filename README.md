@@ -23,26 +23,28 @@ This app solves the problem of inconsistent meal planning and lack of nutritiona
 - **Database:** Cloud Firestore (NoSQL)
 
 ---
+# directory structure
 
-## 📁 Directory Structure
- EatSmart/
- 
+EatSmart/
 ├─ frontend/
-│ ├─ src/
-│ │ ├─ components/
-│ │ │ ├─ Dashboard.jsx
-│ │ │ ├─ NutritionTracker.jsx
-│ │ │ ├─ MealPlanner.jsx
-│ │ │ ├─ HealthInsights.jsx
-│ │ │ └── AIAssistant.jsx
-│ │ ├─ contexts/AuthContext.jsx
-│ │ ├─ firebase/
-│ │ │ ├─ auth.js
-│ │ │ ├─ nutrition.js
-│ │ │ └── config.js
-│ │ └─ App.jsx
-│ └─ index.html
-└─ README.md                                                                                                                                                                                                                ## ✨ Features
+│  ├─ src/
+│  │  ├─ components/
+│  │  │  ├─ Dashboard.jsx
+│  │  │  ├─ NutritionTracker.jsx
+│  │  │  ├─ MealPlanner.jsx
+│  │  │  ├─ HealthInsights.jsx
+│  │  │  └─ AIAssistant.jsx
+│  │  ├─ contexts/
+│  │  │  └─ AuthContext.jsx
+│  │  ├─ firebase/
+│  │  │  ├─ auth.js
+│  │  │  ├─ nutrition.js
+│  │  │  └─ config.js
+│  │  └─ App.jsx
+│  ├─ index.html
+└─ README.md
+                                                                                                                                                                                                    
+## ✨ Features
 
 - 🔐 **Firebase Authentication (Email/Password)**
 - 🥗 **Food & Nutrition Tracking**
