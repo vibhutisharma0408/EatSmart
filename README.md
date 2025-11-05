@@ -26,6 +26,7 @@ This app solves the problem of inconsistent meal planning and lack of nutritiona
 
 ## 📁 Directory Structure
  EatSmart/
+ 
 ├─ frontend/
 │ ├─ src/
 │ │ ├─ components/
